@@ -1,0 +1,29 @@
+.nav-link {
+  background-color: #f91944;
+  color: white !important;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.nav-link:focus{
+  outline: none !important;
+}
+
+#login {
+  background-color: white;
+  color: black !important;
+}
+
+#login:hover {
+  background-color: #f91944;
+  color: white !important;
+}
+
+#icon {
+  width: 20px !important;
+  background-color: white;
+  color: black !important;
+}

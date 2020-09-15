@@ -1,0 +1,13 @@
+.delivery-box {
+    height: 100%;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: auto;
+    background-color: #efefef;
+}
+
+.order-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}

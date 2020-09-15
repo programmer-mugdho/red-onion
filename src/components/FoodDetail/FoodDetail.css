@@ -1,0 +1,58 @@
+.description h1 {
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+.description p {
+    font-size: 15px;
+    line-height: 2;
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+
+.price-quantity h2 {
+    font-weight: 500;
+    width: 100px;
+}
+
+.price-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-container {
+    display: flex;
+    margin-left: 30px;
+    width: 130px;
+    text-align: center;
+    border: 1px lightgray solid;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.plus {
+    color: #f91944;
+}
+
+.plus, .minus, .quantity {
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.addbtn{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    background-color: #f91944;
+    color: white;
+}
+.addbtn svg{
+    margin-right: 5px
+}
+.addbtn:focus{
+    outline:none
+}

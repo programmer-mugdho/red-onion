@@ -1,0 +1,17 @@
+.delivery-details input {
+    background-color: #efefef;
+    margin-top: 15px;
+    border-radius: 5px !important;
+}
+
+.delivery-details input::placeholder {
+    padding-left: 10px;
+}
+
+.instruction{
+    height:70px !important;
+}
+hr {
+    width: 400px;
+    margin-left: 0;
+}
